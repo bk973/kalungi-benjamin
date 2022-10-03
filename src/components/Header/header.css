@@ -1,0 +1,53 @@
+.header {
+    display: inline-flex;
+    margin: 0;
+    padding: 0 50px;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    min-width: 100%;
+}
+
+.nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.nav-menu {
+    display: flex;
+    flex-grow: 0;
+}
+
+.navlink-active,
+.navlink {
+    text-transform: uppercase;
+    padding: 20px 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.navlink {
+    color: #1D1F22;
+}
+
+.navlink-active {
+    border-bottom: 2px solid green;
+    color: green;
+}
+
+.header-btns {
+    display: flex;
+}
+
+.flex-auto {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}

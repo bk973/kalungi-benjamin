@@ -1,0 +1,35 @@
+.products-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 80px;
+    row-gap: 120px;
+}
+
+.product {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: #1D1F22;
+}
+
+.item-wrap {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.product-picture {
+    margin-bottom: 25px;
+}
+
+.item-name {
+    font-weight: 300;
+}
+
+.item-price {
+    font-weight: 500;
+}
